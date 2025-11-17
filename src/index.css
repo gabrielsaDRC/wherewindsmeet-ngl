@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-slate-950 via-red-950/20 to-amber-950/20 text-amber-100;
+    background-attachment: fixed;
+  }
+}
+
+@layer utilities {
+  .text-shadow-glow {
+    text-shadow: 0 0 20px rgba(251, 191, 36, 0.5);
+  }
+
+  .border-glow {
+    box-shadow: 0 0 20px rgba(251, 191, 36, 0.2);
+  }
+}
