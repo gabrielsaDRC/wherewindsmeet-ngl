@@ -91,7 +91,7 @@ export default function BlogPostView({ postId, onBack }: { postId: string; onBac
             return (
               <p
                 key={index}
-                className="mb-4 leading-relaxed"
+                className="mb-4 leading-relaxed whitespace-pre-wrap"
                 style={{
                   fontSize: block.fontSize || '1rem',
                   color: block.color || '#fef3c7',
